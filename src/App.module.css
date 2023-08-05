@@ -1,0 +1,36 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    108.9deg,
+    #36413b 11.2%,
+    rgb(35, 106, 112) 88.9%
+  );
+  align-items: center;
+  height: 100vh;
+  overflow-y: auto;
+}
+:root {
+  --hefo-color: rgba(141, 161, 152, 0.562);
+}
+/* Dikey scrollbar */
+::-webkit-scrollbar {
+  width: 8px; /* Scrollbar genişliği */
+  background-color: #36413b;
+}
+
+/* Scrollbar için track */
+::-webkit-scrollbar-track {
+  background-color: transparent; /* Track arka plan rengi */
+}
+
+/* Scrollbar için thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #6d8355; /* Scrollbar rengi */
+  border-radius: 6px; /* Scrollbar kenar yuvarlanma miktarı */
+}
+
+/* Scrollbar üzerine gelindiğinde thumb */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Scrollbar rengi */
+}

@@ -1,0 +1,14 @@
+.footer {
+  position: sticky;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-self: start;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--hefo-color);
+  text-align: center;
+  top: 100vh; /* Varsayılan olarak 90vh değerini deneyin, sayfa içeriğine göre ayarlayabilirsiniz */
+  box-sizing: border-box;
+  padding: 10px;
+}

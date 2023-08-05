@@ -1,0 +1,54 @@
+@font-face {
+  font-family: elegant;
+  src: url("../../Fonts/elegant.otf") format("opentype");
+}
+.component {
+  margin-bottom: 20px;
+  height: 170px;
+  width: 655px;
+  box-shadow: 0px 0px 10px #232c12e1;
+  display: flex;
+  flex-direction: row;
+}
+.som {
+  display: flex;
+  flex-direction: column;
+}
+.manPhoto {
+  background-image: url("../../Icons/man.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+}
+.womanPhoto {
+  background-image: url("../../Icons/woman.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.component .div {
+  background-color: #ccc9c9;
+  height: 35px;
+  width: 450px;
+  margin: 5px 17px;
+  margin-top: 13px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.div span {
+  font-family: elegant;
+  margin-left: 10px;
+  font-size: 15px;
+}
+@media only screen and (max-width: 768px) {
+  .component {
+    width: 505px;
+  }
+  .component .div {
+    width: 300px;
+  }
+}

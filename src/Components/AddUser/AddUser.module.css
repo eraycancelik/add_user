@@ -1,0 +1,160 @@
+.cardMargin {
+  margin-top: 100px;
+}
+.addUser {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 100px;
+  color: rgb(0, 0, 0);
+}
+.addUser input {
+  font-size: 16px;
+  border: solid 1px;
+  border-radius: 4px;
+  width: 400px;
+  height: 25px;
+  background-color: #ffffff;
+}
+.inputArea {
+  margin-bottom: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.inputArea2 {
+  margin-bottom: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.inp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50%;
+}
+.inputArea2 input {
+  width: 150px;
+}
+.butonSide {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.dolo {
+  margin-top: 30px;
+}
+.username {
+  margin-right: 10px;
+  width: 35px;
+  height: 35px;
+  background-image: url("../../Icons/username.png"); /* Icon dosyanızın yolu */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.mail {
+  margin-right: 10px;
+  width: 35px;
+  height: 35px;
+  background-image: url("../../Icons/mail-icon.png"); /* Icon dosyanızın yolu */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.age {
+  margin-right: 10px;
+  width: 35px;
+  height: 35px;
+  background-image: url("../../Icons/age.png"); /* Icon dosyanızın yolu */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.gender {
+  margin-right: 4px;
+  width: 35px;
+  height: 35px;
+  background-image: url("../../Icons/gender.png"); /* Icon dosyanızın yolu */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+input {
+  margin-left: 3px;
+}
+select {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 0.5rem 3rem;
+  border-radius: 6px;
+  width: 190px;
+}
+
+/* Header Section */
+.heder {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.userIcon {
+  margin-right: 5px;
+  width: 50px;
+  height: 50px;
+  background-image: url("../../Icons/main.png"); /* Icon dosyanızın yolu */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+input:hover {
+  box-shadow: 0px 0px 10px #232c1262;
+}
+.inp2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .addUser input {
+    width: 250px;
+  }
+  .inputArea2 {
+    margin-bottom: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .inp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .inputArea2 select {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .inputArea2 .gender {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  .inp2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .but-perspective {
+    padding: 0.75rem 3rem;
+    font-size: 1.25rem;
+  }
+}
